@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <title>website bersama - Galuh & Fera</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="header-main">
+            <div class="header-content">
+                <h1>Website Bersama - Galuh & Fera</h1>
+                <p>Hai semuaaaa! Selamat datang di website kami!</p>
+            </div>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#header">Beranda</a></li>
+                    <li><a href="#">Galeri</a></li>
+                    <li><a href="#">Cerita Singkat</a></li>
+                </ul>
+            </nav>
+
+            <button class="hamburger" aria-label="Buka menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="overlay" id="overlay"></div>
+    <aside class="sidebar" id="sidebar">
+        <ul>
+            <li><a href="#header">Beranda</a></li>
+            <li><a href="#">Galeri</a></li>
+            <li><a href="#">Cerita Singkat</a></li>
+        </ul>
+    </aside>
+
+    <!-- beranda -->
+    <section class="beranda" id="beranda">
+        <!-- Slideshow background -->
+        <div class="hero-slideshow">
+            <div class="hero-slide active" style="background-image: url('aset/hero1.jpeg');"></div>
+            <div class="hero-slide" style="background-image: url('aset/hero2.jpeg');"></div>
+            <div class="hero-slide" style="background-image: url('aset/hero3.jpeg');"></div>
+            <!-- <div class="hero-slide" style="background-image: url('aset/hero4.jpeg');"></div> -->
+        </div>
+
+        <!-- Overlay gelap biar teks kebaca -->
+        <div class="hero-overlay"></div>
+
+        <!-- Konten -->
+        <div class="container">
+            <div class="hero-content">
+                <h1>Galuh Alip Fadullah <span>&</span> Fera Febianti Dewi</h1>
+                <p>Website ini dibuat untuk berbagi cerita dan momen indah kami bersama. Terima kasih telah mengunjungi!
+                </p>
+                <div class="hero-button">
+                    <a href="#galeri" class="btn">Pergi ke Galeri</a>
+                    <a href="#cerita" class="btn btn-secondary">Baca Cerita</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>

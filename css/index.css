@@ -505,15 +505,15 @@ header {
   }
 
   .hero-slide:nth-child(1) {
-    background-image: url("/aset/hero1-potrait.jpeg") !important;
+    background-image: url("../aset/hero1-potrait.jpeg") !important;
     background-position: center 60%;
   }
   .hero-slide:nth-child(2) {
-    background-image: url("/aset/hero2-potrait.jpeg") !important;
+    background-image: url("../aset/hero2-potrait.jpeg") !important;
     background-position: center 60%;
   }
   .hero-slide:nth-child(3) {
-    background-image: url("/aset/hero3-potrait.jpeg") !important;
+    background-image: url("../aset/hero3-potrait.jpeg") !important;
     background-position: center 60%;
   }
 

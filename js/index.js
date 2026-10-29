@@ -63,3 +63,11 @@ function nextSlide() {
 
 // Jalanin tiap 5 detik
 setInterval(nextSlide, slideInterval);
+
+// lightbox galeri
+const lightbox = GLightbox({
+  selector: ".glightbox", // Cari semua elemen dengan class glightbox
+  touchNavigation: true, // Aktifkan swipe di mobile
+  loop: false, // Jangan loop balik ke awal setelah foto terakhir
+  zoomable: true, // Bisa di-zoom
+});
